@@ -1,3 +1,32 @@
+:root {
+  --body: #0b131e;
+  --deep-purple: #6a0dad;
+  --medium-purple: #7851a9;
+  --light-purple: #9966cc;
+  --lavender: #e6e6fa;
+  --lilac: #c8a2c8;
+  --orchid: #da70d6;
+  --pink: #ffb6c1;
+  --mint: #98ff98;
+  --gold: #ffd700;
+  --indigo: #4b0082;
+  --rosewood: #614051;
+  --dark-gray: #a9a9a9;
+  --off-white: #fdf6f0; /* Warm white base */
+  --text-color: #4b0082; /* Indigo for primary text */
+  --hover-bg: #e6e6fa; /* Soft lavender hover */
+  --accent: #da70d6; /* Orchid for accents */
+}
+
+/* Font */
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--body) !important;
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+}
+
 .App {
   text-align: center;
 }
